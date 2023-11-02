@@ -1,0 +1,87 @@
+.gridItem{
+    padding: 10px;
+    margin: 8px;
+    border-radius: 10px;
+    border: 2px solid hsl(210, 46%, 95%);
+}
+@media(min-width: 400px)
+{
+    .bodyText{
+        font-size:10px;
+        opacity: 75%;
+    }
+    .body{
+        font-size: 13px;
+        text-align: left;
+    }
+    .verified{
+        opacity: 50%;
+    }
+    .Screen{
+        font-size: 10px;
+        background-color:hsl(210, 46%, 95%);
+        margin: 30px;
+    }
+    .Card{
+        text-align: left;
+        margin: auto;
+        height: auto;
+        width:60%;
+        padding:5px;
+        display: flex;
+        flex-direction: row;
+    }
+    .leftBox{
+        border-radius: 75%;
+        flex-basis: 75%;
+        display: flex;
+        flex-direction: column;
+    }
+    .TopBox{
+        flex-basis: 50%;
+        display:flex;
+        flex-direction: row;
+        color: black;
+
+    }
+    #Daniel{
+        flex-basis: 75%;
+        background-color: hsl(263, 55%, 52%);
+        color: white;
+    }
+    #Johnathan{
+
+        flex-basis: 25%;
+        background-color: hsl(217, 19%, 35%);
+        color: white;
+    }
+    .bottomBox{
+        flex-basis: 50%;
+        display:flex;
+        flex-direction: row;
+    }
+    #Jeanette{
+        flex-basis: 25%;
+        background-color: white;
+    }
+    #Patrick{
+        flex-basis: 75%;
+        background-color: hsl(219, 29%, 14%);
+        color: white;
+    }
+    .rightBox{
+        flex-basis: 25%;  
+        display: flex;
+        flex-direction: column;
+    }
+    #Kira{
+
+        flex-basis: 100%;
+        background-color: white;
+        color: black;
+    }
+    .image{
+        border:2px solid black; 
+        border-radius: 50%;
+    }
+}
